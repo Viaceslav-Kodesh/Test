@@ -3,10 +3,10 @@
 echo "Hello $1"
 time=$(date)
 echo ::set-output name=time::$time
-sudo apt update
-sudo apt install python-pip
-sudo pip install jsonlib
-sudo pip install python-novaclient
-sudo pip install credentials
-sudo pip install python-openstacksdk
-sudo apt update
+apt update
+apt install python-pip
+pip install jsonlib
+pip install python-novaclient
+pip install credentials
+pip install python-openstacksdk
+apt update
